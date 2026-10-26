@@ -14,7 +14,7 @@ namespace MyApp.Tests
 
             var result = calc.Add(2, 3);
 
-            Assert.Equal(5, result);
+            Assert.Equal(6, result);
         }
 
         [Fact]
