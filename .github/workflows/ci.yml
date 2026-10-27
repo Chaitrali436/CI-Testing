@@ -39,7 +39,7 @@ jobs:
           dotnet-version: "10.0.x"
 
       - name: Publish app
-        run: dotnet publish MyApp.Console -c Release -o ./publish
+        run: dotnet publish MyApp.Api -c Release -o ./publish
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
